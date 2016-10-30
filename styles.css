@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  transition: color .3s ease-in-out;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url('static/img/jumb-back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px;
+  margin-top: -50px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 100;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.jumbotron p {
+  color: #fff;
+  letter-spacing: .8px;
+  word-wrap: break-word;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-inverse {
+  background-color: #010101;
+}
